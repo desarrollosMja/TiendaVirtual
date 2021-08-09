@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#encabezadoIndex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 66, 165, 0.829);
+  padding: 10px 10px 0px 10px; }
+  #encabezadoIndex #tituloIndex {
+    margin: 10px 10px 0px 10px; }
+  #encabezadoIndex #menuIndex {
+    margin: 10px 10px 0px 10px; }
+    #encabezadoIndex #menuIndex ul {
+      display: inline-block;
+      vertical-align: bottom; }
+      #encabezadoIndex #menuIndex ul li {
+        margin: 10px 10px 0px 10px;
+        display: inline-block;
+        list-style: none;
+        color: white; }
+        #encabezadoIndex #menuIndex ul li a {
+          color: white;
+          text-decoration: none;
+          font-size: 18px; }
+    #encabezadoIndex #menuIndex svg {
+      margin: 20px;
+      margin-left: 40px;
+      padding: 10px;
+      width: 40px;
+      height: auto;
+      color: black;
+      background-color: #fff;
+      border-radius: 5px; }
+
+#listadoProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center; }
